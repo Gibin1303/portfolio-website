@@ -1,0 +1,39 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+.threejs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+
+.dots-background {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #030305;
+  z-index: -1;
+}
+
+.dots-background canvas {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+

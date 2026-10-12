@@ -1,0 +1,148 @@
+
+
+
+
+.hero-banner {
+  padding: 30px;
+  margin: auto;
+  color: black;
+}
+
+.content {
+  padding: 50px;
+}
+
+/* @keyframes slideLoop {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.animate-slide-loop {
+  animation: slideLoop 6s linear infinite;
+} */
+/* Smooth Linear Shimmer Line Sweep */
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmerSweep 6s infinite linear;
+}
+
+/* .download-btn {
+  padding: 6px 50px 6px 50px;
+  border-radius: 20px;
+  color: #333;
+  width: auto;
+  height: auto;
+  font: bolder;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 18px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btncomp {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+} */
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* 8px */
+  width: 100%;
+  padding: 0.75rem 1.25rem; /* 12px 20px */
+  margin-top: 25px;
+
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  color: #111827; /* gray-900 */
+
+  /* Replace #d4af37 with your actual gold hex color if not using CSS variables */
+  background-color: var(--luxury-gold, #d4af37);
+  border-radius: 0.5rem; /* 8px */
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+/* Hover State */
+.download-btn:hover {
+  opacity: 0.9;
+}
+
+/* Active / Click State */
+.download-btn:active {
+  transform: scale(0.95);
+}
+
+/* .section,
+img {
+  padding: 80px;
+  border-radius: 100px;
+} */
+
+.contents {
+  padding: 60px;
+  /* width: 50%;
+  height: 50%;
+  margin: 10px auto;
+  padding-bottom: 100px; */
+}
+
+.box{
+  padding: 40px;
+}
+
+.desc{
+  padding: 2px;
+}
+
+/* Responsive Styles (sm: breakpoint >= 640px) */
+@media (min-width: 640px) {
+  .download-btn {
+    width: auto;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .download-btn {
+    width: 100%;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem;
+    margin-top: 20px;
+  }
+}
+

@@ -1,0 +1,37 @@
+.main{
+    padding: 10px;
+}
+
+.content{
+    padding: 20px;
+}
+
+.navcontent{
+    padding: 10px;
+}
+
+.navlinks{
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact{
+    padding: 10px;
+    font: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.para{
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+ font-size: x-large;
+ color: #333;
+}
+
+.para1{
+    padding: 20px;
+}
