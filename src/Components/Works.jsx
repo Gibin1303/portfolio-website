@@ -1,17 +1,3 @@
-// import React from "react";
-// import Portfolio from "../Components/Pinned";
-
-// const Works = () => {
-//   return (
-//     <section className="relative w-11/12 bg-luxury-dark">
-//       <Portfolio />
-//     </section>
-//   );
-// };
-
-// export default Works;
-
-
 
 import React from "react";
 import Portfolio from "../Components/Pinned";
@@ -26,3 +12,5 @@ const Works = () => {
 };
 
 export default Works;
+
+

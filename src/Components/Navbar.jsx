@@ -145,7 +145,7 @@ const Navbar = () => {
             <span className="text-sm font-black">P</span>
           </div>
 
-          <div>
+          <div >
             <h1 className="text-lg font-semibold tracking-tight text-white">
               Portfolio
             </h1>
